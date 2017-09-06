@@ -8,6 +8,7 @@ Build-Depends: debhelper (>= 9),
                python-setuptools,
                python3-all,
                python3-setuptools,
+               wget
 Standards-Version: 3.9.6
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.4
