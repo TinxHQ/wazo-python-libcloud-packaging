@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+# export DH_VERBOSE=1
+
+PKG = $(word 2,$(shell dpkg-parsechangelog | grep Source))
+VERSION ?= $(shell cat VERSION)
+DOWNLOAD_URL = "https://github.com/apache/libcloud/archive/v${VERSION}.tar.gz"
+export PYBUILD_NAME=libcloud
+export PYBUILD_DISABLE=test
+export PYBUILD_SYSTEM=distutils
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
+
+clean:
+	@echo
+
+override_dh_auto_test:
+	@echo
+
+.PHONY: get-orig-source
+
+get-orig-source:
+	@echo "# Downloading..."
+	wget -nv -T10 -t3 $(DOWNLOAD_URL) -O ../$(PKG)_$(VERSION).orig.tar.gz

@@ -1,0 +1,13 @@
+Index: tinx-python-libcloud-packaging/setup.py
+===================================================================
+--- tinx-python-libcloud-packaging.orig/setup.py
++++ tinx-python-libcloud-packaging/setup.py
+@@ -149,7 +149,7 @@ setup(
+     package_data={'libcloud': get_data_files('libcloud', parent='libcloud')},
+     license='Apache License (2.0)',
+     url='http://libcloud.apache.org/',
+-    setup_requires=['pytest-runner'],
++    setup_requires=[],
+     tests_require=TEST_REQUIREMENTS,
+     cmdclass={
+         'apidocs': ApiDocsCommand,

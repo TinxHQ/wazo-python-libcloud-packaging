@@ -1,0 +1,5 @@
+tinx-python-libcloud-packaging (2.2.0-1~tinx1) private; urgency=medium
+
+  * Initial release
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Wed, 06 Sep 2017 13:47:08 -0400
