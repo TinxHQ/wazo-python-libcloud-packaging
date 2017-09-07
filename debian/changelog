@@ -1,3 +1,9 @@
+tinx-python-libcloud-packaging (2.2.0-1~tinx2) private; urgency=medium
+
+  * remove the test package
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Thu, 07 Sep 2017 10:34:50 -0400
+
 tinx-python-libcloud-packaging (2.2.0-1~tinx1) private; urgency=medium
 
   * Initial release

@@ -14,7 +14,7 @@ export PYBUILD_SYSTEM=distutils
 	dh $@ --with python2,python3 --buildsystem=pybuild
 
 clean:
-	@echo
+	rm -rf libcloud/test
 
 override_dh_auto_test:
 	@echo
