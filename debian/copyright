@@ -3,7 +3,7 @@ Upstream-Name: libcloud
 Source: https://github.com/apache/libcloud
 
 Files: *
-Copyright: The Apache Software Foundation
+Copyright: 2010-2017 The Apache Software Foundation
 License: Apache
  Licensed to the Apache Software Foundation (ASF) under one or more
  contributor license agreements.  See the NOTICE file distributed with
@@ -18,4 +18,5 @@ License: Apache
  limitations under the License.
 
 Files: debian/*
+Copyright: 2017 The Wazo Authors
 License: GPL-3

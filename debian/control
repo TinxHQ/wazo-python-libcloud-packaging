@@ -17,11 +17,13 @@ Homepage: http://libcloud.apache.org/
 Package: python-libcloud
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Description: Python library for interacting with many of the popular cloud service providers using a unified API.
+Description: Python library for interacting with many of the popular cloud
+ service providers using a unified API.
  .
 
 Package: python3-libcloud
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
-Description: Python library for interacting with many of the popular cloud service providers using a unified API.
+Description: Python library for interacting with many of the popular cloud
+ service providers using a unified API.
  .

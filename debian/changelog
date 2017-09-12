@@ -1,3 +1,9 @@
+tinx-python-libcloud-packaging (2.2.0-1~tinx3) private; urgency=medium
+
+  * fix description length and add missing copyright tag
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 12 Sep 2017 08:23:24 -0400
+
 tinx-python-libcloud-packaging (2.2.0-1~tinx2) private; urgency=medium
 
   * remove the test package
