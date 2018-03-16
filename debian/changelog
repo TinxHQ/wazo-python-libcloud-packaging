@@ -1,9 +1,15 @@
+tinx-python-libcloud-packaging (2.3.0-1~tinx1) private; urgency=medium
+
+  * update to 2.3.0
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Fri, 16 Mar 2018 14:14:29 -0400
+
 tinx-python-libcloud-packaging (2.2.1-1~tinx1) private; urgency=medium
 
   * update version.
 
  -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 27 Sep 2017 07:10:02 -0400
- 
+
 tinx-python-libcloud-packaging (2.2.0-1~tinx3) private; urgency=medium
 
   * fix description length and add missing copyright tag
