@@ -1,4 +1,4 @@
-# tinx-python-libcloud-packaging
+# wazo-python-libcloud-packaging
 
 Debian packaging for [libcloud](http://libcloud.apache.org/).
 
@@ -14,7 +14,7 @@ To build a new version of libcloud.
 
 The version in the changelog MUST have the following format:
 
-`<upstream_version>-1~tinx<1..n>`
+`<upstream_version>-1~wazo<1..n>`
 
 ## Building Locally
 
@@ -22,7 +22,7 @@ To build on a test environment before submitting a change to production the foll
 
 ```su
 make -f debian/rules get-orig-source
-tar -xvf ../tinx-python-libcloud-packaging_*.orig.tar.gz  --strip 1
+tar -xvf ../wazo-python-libcloud-packaging_*.orig.tar.gz  --strip 1
 dpkg-buildpackage -us -uc
 ```
 

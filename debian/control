@@ -1,4 +1,4 @@
-Source: tinx-python-libcloud-packaging
+Source: wazo-python-libcloud-packaging
 Section: python
 Priority: optional
 Maintainer: Wazo Maintainers <dev@wazo.community>

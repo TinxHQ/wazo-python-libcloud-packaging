@@ -1,3 +1,9 @@
+wazo-python-libcloud-packaging (2.3.0-1~wazo1) wazo-dev; urgency=medium
+
+  * rename to wazo
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Fri, 16 Mar 2018 14:29:04 -0400
+
 tinx-python-libcloud-packaging (2.3.0-1~tinx1) private; urgency=medium
 
   * update to 2.3.0
