@@ -4,13 +4,13 @@ Priority: optional
 Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-all (>= 2.6.6-3),
+               python-all (>= 2.7.16-2),
                python-setuptools,
                python3-all,
                python3-setuptools,
                wget
 Standards-Version: 3.9.6
-X-Python-Version: >= 2.6
+X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.4
 Homepage: http://libcloud.apache.org/
 
