@@ -11,7 +11,7 @@ export PYBUILD_DISABLE=test
 export PYBUILD_SYSTEM=distutils
 
 %:
-	dh $@ --with python2,python3 --buildsystem=pybuild
+	dh $@ --with python3 --buildsystem=pybuild
 
 clean:
 	rm -rf libcloud/test
