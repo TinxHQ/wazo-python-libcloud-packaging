@@ -1,3 +1,9 @@
+wazo-python-libcloud-packaging (2.7.0-1~wazo2) nestbox-dev-buster; urgency=medium
+
+  * add jenkinsfile
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Fri, 07 Jan 2022 13:43:20 -0500
+
 wazo-python-libcloud-packaging (2.7.0-1~wazo1) wazo-dev-buster; urgency=medium
 
   * update to 2.7.0
