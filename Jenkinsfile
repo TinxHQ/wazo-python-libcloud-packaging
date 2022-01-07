@@ -11,7 +11,7 @@ pipeline {
     stage ('Prepare') {
       steps {
         script {
-          version = sh(script: 'wazo-version unstable', returnStdout: true).trim()
+          version = sh(script: 'dpkg-parsechangelog --show-field version', returnStdout: true).trim()
           currentBuild.displayName = "${JOB_NAME} ${version}"
           currentBuild.description = "Build Debian package ${JOB_NAME} ${version}"
         }
@@ -21,7 +21,7 @@ pipeline {
       steps {
         build job: 'build-package', parameters: [
           string(name: 'PACKAGE', value: "${JOB_NAME}"),
-          string(name: 'VERSION', value: "${version}"),
+          string(name: 'FORCED_VERSION', value: "${version}"),
           string(name: 'DEBIAN_REPOSITORY', value: 'private'),
           string(name: 'DEBIAN_DISTRIBUTION', value: 'nestbox-dev-buster'),
         ]
