@@ -1,3 +1,9 @@
+wazo-python-libcloud-packaging (2.7.0-1~wazo3) portal-dev-bullseye; urgency=medium
+
+  * Bullseye build
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Mon, 24 Apr 2023 14:15:56 -0400
+
 wazo-python-libcloud-packaging (2.7.0-1~wazo2) nestbox-dev-buster; urgency=medium
 
   * add jenkinsfile
