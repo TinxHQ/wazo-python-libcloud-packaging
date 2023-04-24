@@ -23,7 +23,7 @@ pipeline {
           string(name: 'PACKAGE', value: "${JOB_NAME}"),
           string(name: 'FORCED_VERSION', value: "${version}"),
           string(name: 'DEBIAN_REPOSITORY', value: 'private'),
-          string(name: 'DEBIAN_DISTRIBUTION', value: 'nestbox-dev-buster'),
+          string(name: 'DEBIAN_DISTRIBUTION', value: 'portal-dev-bullseye'),
         ]
       }
     }
